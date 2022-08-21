@@ -1,0 +1,7 @@
+# build 
+lib/**
+build/**
+# yarn cache 
+.yarn/**
+# node module 
+node_modules/**

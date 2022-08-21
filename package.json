@@ -1,0 +1,25 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Default my repository template.",
+  "main": "./lib/src/index.js",
+  "devDependencies": {
+    "prettier": "latest"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:license": "node ./generator/license",
+    "prepare": "yarn build",
+    "prettier": "NODE_OPTIONS=--max_old_space_size=4096 prettier -w ."
+  },
+  "author": "butthx",
+  "license": "MIT",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0",
+    "yarn": ">=1.0.0"
+  },
+  "packageManager": "yarn@3.2.1",
+  "dependencies": {}
+}

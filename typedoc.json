@@ -1,0 +1,12 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "docs",
+  "media": ["./media"],
+  "name": "tgsnake",
+  "includeVersion": true,
+  "hideGenerator": true,
+  "externalPattern": ["./example/*(.js|.ts|.md)"],
+  "emit": true,
+  "logger": "verbose",
+  "sort": "alphabetical"
+}
